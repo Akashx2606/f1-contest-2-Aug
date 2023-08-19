@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="lb">
+                <p><a href="#">Library System</a></p>
+            </div>
+            <div class="right-side">
+                <p><a href="#">Books</a></p>
+                <p><a href="#">Register</a></p>
+                <p><a href="">Contact Us</a></p>
+                <p><a href="#">Logout</a></p>
+            </div>
+        </nav>
+    </div> 
+    <div class="book-containor">
+    <div>
+        <h2>Books</h2>
+    </div>
+    <div>
+        <table class="wth" >
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="bt"><a href="#">Book Title 1</a>
+                <table class="intbl" >
+                    <tr>
+                        <td>Publication Date:2000</td>
+                    </tr>    
+                    <tr>
+                        <td>Page Count:250</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-3435475681</td>
+                    </tr>
+                </table>
+                </td>
+                <td>Author Name 1</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="bt"><a href="#">Book Title 2</a>
+                <table class="intbl">
+                    <tr>
+                        <td>Publication Date:2005</td>
+                    </tr>    
+                    <tr>
+                        <td>Page Count:300</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-3467557756</td>
+                    </tr>
+                </table>
+                </td>
+                <td>Author Name 2</td>
+                <td>Genre 2</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="bt"><a href="#">Book Title 3</a>
+                <table class="intbl">
+                    <tr>
+                        <td>Publication Date:2010</td>
+                    </tr>    
+                    <tr>
+                        <td>Page Count:380</td>
+                    </tr>
+                    <tr>
+                        <td>ISBN:123-7435375786</td>
+                    </tr>
+                </table>
+                </td>
+                <td>Author Name 3</td>
+                <td>Genre 3</td>
+                <td>Available</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    <div class="rcontainor">
+        <h2>Register</h2>
+        <form method="post">
+        <div>
+            <label for="name">First Name</label><br>
+            <input type="text" id="name"/>
+        </div>
+        <div>
+            <label for="lastname">Last Name</label><br>
+            <input type="text" id="lastname"/>
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob"/>
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" id="age"/>
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email"/>
+        </div>
+        <div>
+            <label for="password">Password</label><br>
+            <input type="password" id="password"/>
+        </div>
+        <div>
+            <label for="c-password">Conform Password</label><br>
+            <input type="password" id="c-password"/><br>
+            <div class="registation">
+                <button>Register</button>
+            </div>
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>
